@@ -1,0 +1,32 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: papayawhip;
+
+  background: #1b8529;
+  background: -moz-linear-gradient(left, #1b8529 0%, #38a463 50%, #53c521 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #1b8529 0%,
+    #38a463 50%,
+    #53c521 100%
+  );
+  background: linear-gradient(to right, #1b8529 0%, #38a463 50%, #53c521 100%);
+}
+
+a {
+  color: #00b7ff;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.big {
+  text-align: center;
+  font-size: 120%;
+}

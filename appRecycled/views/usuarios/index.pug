@@ -1,0 +1,27 @@
+extends ../layout
+
+
+
+block content
+    h2.text-center Lista de usuarios
+    table.table
+        thead
+            tr  
+                th Nombre
+                th Apellidos
+                th Email
+                th Password
+                th Direccion
+              
+        tbody
+            each usuario in usuarios
+                tr
+                    td= usuario.nombre
+                    td= usuario.apellidos
+                    td= usuario.email
+                    td= usuario.password
+                    td= usuario.direccion
+                    
+                       
+
+    
